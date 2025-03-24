@@ -1,0 +1,24 @@
+{
+    "name": "MCP23017",
+    "version": "0.0.0",
+    "description": "MCP23017 16PIN IO Expansion Board driver for Microbit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "README.md",
+        "main.blocks",
+        "MCP23017.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
